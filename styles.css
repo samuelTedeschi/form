@@ -13,16 +13,21 @@ body{
 
 .btn{
     border: 1px solid gainsboro;
-    background-color:whitesmoke;
+    background-color:skyblue;
     border-radius: 4px;
     padding: 8px;
     font-size: large;
     font-weight: 600;
     display: block;
     margin: auto;
-    max-width: 20%;
+    max-width: 30%;
+    width: 30%;
     text-align: center;
     cursor: pointer;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .bg{
@@ -34,4 +39,46 @@ body{
     height: 100%;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.666);
+}
+
+.containerForm{
+    background-color: whitesmoke;
+    width: 40%;
+    height: 40%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid gainsboro;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form input{
+    width: 50%;
+    height: 40px;
+    padding: 6px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid gainsboro;
+}
+
+.btn-Enviar{
+    width: 50%;
+    padding: 6px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px gainsboro;
+    background-color: lightskyblue;
+    font-size: large;
+    font-weight: 700;
+    text-transform: capitalize;
+    cursor: pointer;
 }
