@@ -12,10 +12,10 @@
         <p>preencha todos os campos de formulario e seu email sera enviado</p>
     </header>
     <main>
-        <form>
-            <input type="text" name="" id="" class="name" placeholder="Nome">
-            <input type="email" name="" id="" class="email" placeholder="Email">
-            <textarea name="" id="" cols="28" rows="10" placeholder=" Sua mensagem"></textarea>
+        <form method="post" action="/enviar">
+            <input type="text" name="nome" id="nome" class="name" placeholder="Nome">
+            <input type="email" name="email" id="email" class="email" placeholder="Email">
+            <textarea name="mensagem" id="mensagem" cols="28" rows="10" placeholder=" Sua mensagem"></textarea>
             <input type="submit" value="Enviar" class="btn">
         </form>
     </main>
